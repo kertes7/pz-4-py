@@ -1,10 +1,14 @@
 # task 1
+
+
 name = input("Введіть ім'я: ")
 surname = input("Введіть прізвище: ")
 age = float(input("Введіть вік: "))
 city = input("Введіть місто: ")
 
-print(f"{name:<10} {surname}, {age:.2f} років, місто: {city:>15}")
+
+print(f"{name}{' ' * 5}{surname}, {age:.2f} років, місто: {city:>15}")
+
 
 
 #task 2
